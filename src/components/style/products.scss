@@ -1,0 +1,45 @@
+.modal-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     width: 80%;
+     gap:30px;
+img{
+    width: 100%;
+}
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        .btn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap:30px;
+            .btn-close{
+                cursor: pointer;
+                font-size: 20px;
+                color: white;
+                padding: 10px;
+                background-color:  #e71212;
+                border-radius: 10px;
+                border: none;
+            }
+            .btn-bill{
+                cursor: pointer;
+                font-size: 20px;
+                color: white;
+                padding: 10px;
+                background-color:  #1292e7;
+                border-radius: 10px;
+                border: none;
+
+
+            }
+        }
+    }
+}

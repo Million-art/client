@@ -1,0 +1,20 @@
+{ 
+    "data":[{
+        "fristName":"admin",   
+        "lastName":"123456",
+        "userName":"admin",
+        "email":"s@x.com",
+        "password":"123456",
+        "phoneNumber":"1234567890",
+        "role":"drugiest"
+    },
+    {
+        "fristName":"biruk",   
+        "lastName":"123456",
+        "userName":"biruk",
+        "email":"a@x.com",
+        "password":"1234",
+        "phoneNumber":"1234567890",
+        "role":"admin"
+    }]
+ }
