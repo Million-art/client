@@ -79,13 +79,13 @@ const handleSubmit = async (e) => {
         method: "POST",
         headers: {"content-Type": "application/json"},
         body: JSON.stringify({
-          role: 'user',
-          firstName: firstName,
-          lastName: lastName,
-          userName: userName,
-          phoneNumber: phoneNumber,
-          email: email,
-          password: password,
+          First_Name:fristName,
+            Last_Name:lastName,
+            Username:userName,
+            Email:email,
+            Phone_Number:phoneNumber,
+            Password:password,
+       ,
            
         }
       
